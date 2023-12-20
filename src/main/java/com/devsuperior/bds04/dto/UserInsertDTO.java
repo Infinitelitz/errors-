@@ -4,19 +4,19 @@ import com.devsuperior.bds04.services.validation.UserInsertValid;
 
 @UserInsertValid
 public class UserInsertDTO extends UserDTO {
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	private String password;
+    private String password;
 
-	UserInsertDTO() {
-		super();
-	}
-	
-	public String getPassword() {
-		return password;
-	}
+    UserInsertDTO() {
+        super();
+    }
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
